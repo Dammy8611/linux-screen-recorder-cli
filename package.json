@@ -1,0 +1,66 @@
+{
+  "name": "@dtechy/linux-screen-recorder-cli",
+  "version": "1.0.0",
+  "description": "A powerful, easy-to-use command-line screen recorder for Linux systems with support for both X11 and Wayland",
+  "main": "recorder.js",
+  "bin": {
+    "linux-recorder": "./recorder.js",
+    "lrec": "./recorder.js"
+  },
+  "scripts": {
+    "start": "node recorder.js",
+    "test": "node recorder.js --check-deps",
+    "help": "node recorder.js --help"
+  },
+  "keywords": [
+    "screen-recorder",
+    "linux",
+    "wayland",
+    "x11",
+    "cli",
+    "ffmpeg",
+    "wf-recorder",
+    "screen-capture",
+    "audio-recording",
+    "video-recording",
+    "desktop-recording",
+    "slurp",
+    "pulseaudio",
+    "pipewire"
+  ],
+  "author": {
+    "name": "Damilola Otele",
+    "email": "damy84511@gmail.com",
+    "url": "https://github.com/Dammy8611"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dammy8611/linux-screen-recorder-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dammy8611/linux-screen-recorder-cli/issues"
+  },
+  "homepage": "https://github.com/Dammy8611/linux-screen-recorder-cli#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "linux"
+  ],
+  "preferGlobal": true,
+  "files": [
+    "recorder.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "yargs": "^18.0.0"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Dammy8611"
+  }
+}
